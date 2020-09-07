@@ -1,4 +1,4 @@
-# run-stryker-net-azure-devops
+Run Strker .Net - Azure Devops Task
 
 Azure Devops extension to run mutation with Stryker .Net.
 
