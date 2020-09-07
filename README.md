@@ -1,7 +1,7 @@
 # run-stryker-net-azure-devops
 
-Azure Devops extension to run mutation with Stryker .Net
+Azure Devops extension to run mutation with Stryker .Net.
 
-**Disclaimer:** This is not an official [Stryker Mutator](https://stryker-mutator.io/) extension 
+**Disclaimer:** This is not an official [Stryker Mutator](https://stryker-mutator.io/) extension.
 
 Under development ...
