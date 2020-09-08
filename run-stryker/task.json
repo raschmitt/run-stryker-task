@@ -29,7 +29,7 @@
             "defaultValue": "",
             "required": true,
             "helpMarkDown": "Test project to run mutations against."
-        },
+        }
     ],
     "execution": {
         "PowerShell": {
