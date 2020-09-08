@@ -1,0 +1,42 @@
+{
+    "manifestVersion": 1,
+    "id": "run-stryker-net-task",
+    "name": "Run Stryker .Net",
+    "version": "0.0.1",
+    "publisher": "raschmitt",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Azure Devops extension to run mutation with Stryker .Net.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags":[
+        ".Net",
+        "Testing",
+        "Mutation",
+        "Stryker"
+    ],
+    "icons": {
+        "default": "images/icon.png"        
+    },
+    "files": [
+        {
+            "path": "run-stryker"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "custom-build-release-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "run-stryker"
+            }
+        }
+    ]
+}
