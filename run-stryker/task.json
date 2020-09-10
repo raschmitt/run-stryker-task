@@ -9,7 +9,7 @@
   "author": "Rogerio Schmitt",
   "version": {
     "Major": 0,
-    "Minor": 28,
+    "Minor": 29,
     "Patch": 0
   },
   "instanceNameFormat": "Run Stryker .Net",

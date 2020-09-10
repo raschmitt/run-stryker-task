@@ -2,8 +2,9 @@
   "manifestVersion": 1,
   "id": "run-stryker-net-task",
   "name": "Run Stryker .Net",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "publisher": "raschmitt",
+  "public": true,
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
