@@ -6,10 +6,10 @@ param(
     [string] $testProject
 )
 
-install dotnet-stryker --tool-path $env:Agent_BuildDirectory/tools
+$testProjectPath = Get-ChildItem -Filter $testProject -Recurse | Select-Object -Expand Directory -First 1
 
-$testPath = Get-ChildItem -Filter $testProject -Recurse | Select-Object -Expand Directory -First 1
+Set-Location $testProjectPath
 
-Set-Location $testPath
+dotnet tool install -g dotnet-stryker
 
-$env:Agent_BuildDirectory/tools/dotnet-stryker
+dotnet-stryker $parameters
