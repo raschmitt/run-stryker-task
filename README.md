@@ -2,7 +2,7 @@
 
 Azure Devops extension to run mutation tests on .Net projects with Stryker.Net.
 
-For more on Stryker.Net please refer to their [official repository](https://github.com/stryker-mutator/stryker-net)
+For more on Stryker.Net please refer to their [official repository](https://github.com/stryker-mutator/stryker-net).
 
 **Disclaimer:** This is not an official [Stryker Mutator](https://stryker-mutator.io/) extension.
 
