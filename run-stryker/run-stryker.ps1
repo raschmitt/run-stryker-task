@@ -12,4 +12,4 @@ Set-Location $testProjectPath
 
 dotnet tool install -g dotnet-stryker
 
-dotnet-stryker $parameters
+Invoke-Expression "dotnet-stryker $parameters"

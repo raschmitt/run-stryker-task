@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "run-stryker-net-task",
   "name": "Run Stryker .Net",
-  "version": "0.29.0",
+  "version": "1.0.0",
   "publisher": "raschmitt",
   "public": true,
   "targets": [
@@ -21,7 +21,15 @@
     "Stryker"
   ],
   "icons": {
-    "default": "run-stryker/icon.png"
+    "default": "icon.png"
+  },
+  "content": {
+    "details": {
+      "path": "overview.md"
+    },
+    "license": {
+      "path": "license.md"
+    }
   },
   "files": [
     {
