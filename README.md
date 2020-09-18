@@ -8,7 +8,7 @@ Azure Devops extension to run mutation tests on .NET Core and .NET Framework pro
 
 **Disclaimer:** This is not an official [Stryker Mutator](https://stryker-mutator.io/) extension.
 
-## How to use...
+## How to use
 
 **1.** Install the extension into your Azure DevOps organization.
 
