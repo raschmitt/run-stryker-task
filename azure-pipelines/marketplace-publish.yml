@@ -4,7 +4,7 @@ trigger:
     - master
   paths:
     include:
-    - '**/task.json'
+    - '**/*task.json'
     - '**/vss-extension.json'
     
 pool:

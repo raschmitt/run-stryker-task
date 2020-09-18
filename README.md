@@ -3,6 +3,7 @@
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/raschmitt.run-stryker-net-task?label=Latest%20Version&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=raschmitt.run-stryker-net-task)
 [![Visual Studio Marketplace Installs - Azure DevOps Extension](https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/raschmitt.run-stryker-net-task?label=Installs&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=raschmitt.run-stryker-net-task)
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/raschmitt.run-stryker-net-task?label=User%20Rating&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=raschmitt.run-stryker-net-task)
+[![Azure DevOps builds](https://img.shields.io/azure-devops/build/raschmitt/7618d927-8467-43e2-b5e9-1aeddc1fbfdc/21?label=Release&style=flat-square)](https://dev.azure.com/raschmitt/raschmitt/_build?definitionId=21)
 
 Azure Devops extension to run mutation tests on .NET Core and .NET Framework projects with [Stryker.Net](https://github.com/stryker-mutator/stryker-net).
 
