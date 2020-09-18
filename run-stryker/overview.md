@@ -1,5 +1,7 @@
 Azure Devops extension to run mutation tests on .NET Core and .NET Framework projects with [Stryker.Net](https://github.com/stryker-mutator/stryker-net).
 
+Note that as of version 1.x this extension only works on windows hosted agents. I plan to upgrade it to ypescript in the future so it can be used on any type of agent.
+
 **Disclaimer:** This is not an official [Stryker Mutator](https://stryker-mutator.io/) extension.
 
 ## How to use
