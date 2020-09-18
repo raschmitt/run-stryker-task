@@ -4,8 +4,8 @@ trigger:
     - master
   paths:
     include:
-    - '**/**/*task.json'
-    # - '**/vss-extension.json'
+    - '**/*task.json'
+    - '**/vss-extension.json'
     
 pool:
   vmImage: 'windows-latest'
