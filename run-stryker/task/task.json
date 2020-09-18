@@ -3,14 +3,14 @@
   "id": "400EA42F-B258-4DA4-9A55-68B174CAE84C",
   "name": "run-stryker",
   "friendlyName": "Run Stryker .Net",
-  "description": "Azure Devops extension to run mutation with Stryker .Net.",
+  "description": "Azure Devops extension to run mutation tests on .NET Core and .NET Framework projects with Stryker.Net.",
   "helpMarkDown": "",
   "category": "Test",
   "author": "Rogerio Schmitt",
   "version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 4
+    "Patch": 5
   },
   "instanceNameFormat": "Run Stryker .Net",
   "inputs": [

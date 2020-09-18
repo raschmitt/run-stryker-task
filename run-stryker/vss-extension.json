@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "run-stryker-net-task",
   "name": "Run Stryker .Net",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "raschmitt",
   "public": true,
   "targets": [
@@ -30,6 +30,10 @@
     "license": {
       "path": "license.md"
     }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/raschmitt/run-stryker-task"
   },
   "files": [
     {
