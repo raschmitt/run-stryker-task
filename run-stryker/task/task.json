@@ -20,7 +20,7 @@
       "label": "Test project to mutate",
       "defaultValue": "",
       "required": true,
-      "helpMarkDown": "Name of the test project to mutate (e.g. Sample.Tests.csproj). bacon"
+      "helpMarkDown": "Name of the test project to mutate (e.g. Sample.Tests.csproj)."
     },
     {
       "name": "parameters",
