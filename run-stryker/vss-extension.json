@@ -33,7 +33,7 @@
   },
   "files": [
     {
-      "path": "run-stryker"
+      "path": "task"
     }
   ],
   "contributions": [
