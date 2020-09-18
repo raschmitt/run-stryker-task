@@ -2,10 +2,10 @@ trigger:
   branches:
     include:
     - master
-  paths:
-    include:
-    - '**/task.json'
-    - '**/vss-extension.json'
+  # paths:
+  #   include:
+  #   - '**/task.json'
+  #   - '**/vss-extension.json'
     
 pool:
   vmImage: 'windows-latest'
