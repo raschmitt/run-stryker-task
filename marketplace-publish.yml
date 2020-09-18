@@ -5,7 +5,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-- group: stryker-net-sample
+- group: run-stryker-task
 
 steps:
   - task: PowerShell@2
@@ -24,4 +24,4 @@ steps:
 
         Set-Location $taskPath
 
-        tfx extension publish --manifest-globs vss-extension.json --token $(pat)
+        tfx extension publish --manifest-globs vss-extension.json --token $(PAT)
