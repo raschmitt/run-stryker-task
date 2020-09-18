@@ -10,14 +10,14 @@ Azure Devops extension to run mutation tests on .NET Core and .NET Framework pro
 
 ## How to use
 
-1. Install the extension into your Azure DevOps organization.
+**1.** Install the extension into your Azure DevOps organization.
 
   - [Installing Azure DevOps extensions](https://docs.microsoft.com/en-us/azure/devops/marketplace/install-extension?view=azure-devops-2020&tabs=browser). 
   - [Run Stryker .Net Task latest version](https://marketplace.visualstudio.com/items?itemName=raschmitt.run-stryker-net-task).
 
-2. Add the task to your pipeline
+**2.** Add the task to your pipeline
 
-  - Simply copy paste the following code, and add your own parameters.
+  - Copy and paste the following code on your `.yml` file, and add your own parameters.
 
 ```yml
 - task: run-stryker@1
@@ -26,7 +26,7 @@ Azure Devops extension to run mutation tests on .NET Core and .NET Framework pro
     parameters: ''
  ```
  
-3. Run your pipeline 
+**3.** Run your pipeline 
 
   - To display your mutation results on your pipeline you can use the [Mutation Report Publisher](https://marketplace.visualstudio.com/items?itemName=stryker-mutator.mutation-report-publisher).
 
