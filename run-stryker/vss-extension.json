@@ -18,7 +18,8 @@
     ".Net",
     "Testing",
     "Mutation",
-    "Stryker"
+    "Stryker",
+    "Bacon"
   ],
   "icons": {
     "default": "icon.png"
