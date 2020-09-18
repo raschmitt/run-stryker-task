@@ -1,0 +1,27 @@
+trigger:
+- none
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+- group: stryker-net-sample
+
+steps:
+  - task: PowerShell@2
+    displayName: Install tfx-cli
+    inputs:
+      targetType: 'inline'
+      script: |
+        npm i -g tfx-cli
+
+  - task: PowerShell@2
+    displayName: Publish extension
+    inputs:
+      targetType: 'inline'
+      script: |
+        $taskPath = Get-ChildItem -Filter vss-extension.json -Recurse | Select-Object -Expand Directory -First 1
+
+        Set-Location $taskPath
+
+        tfx extension publish --manifest-globs vss-extension.json --token $(pat)
