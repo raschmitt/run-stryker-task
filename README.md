@@ -11,7 +11,7 @@ Note that as of version 1.x this extension only works on windows hosted agents, 
 
 **Disclaimer:** This is not an official [Stryker Mutator](https://stryker-mutator.io/) extension.
 
-## How to use...
+## How to use
 
 **1.** Install the extension into your Azure DevOps organization.
 
