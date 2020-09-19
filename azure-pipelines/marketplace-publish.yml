@@ -4,8 +4,8 @@ trigger:
     - master
   paths:
     include:
-    - '**/*task.json'
-    - '**/vss-extension.json'
+    - 'run-stryker/vss-extension.json'
+    - 'run-stryker/task/task.json'
     
 pool:
   vmImage: 'windows-latest'
