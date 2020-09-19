@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "run-stryker-net-task",
   "name": "Run Stryker .Net",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publisher": "raschmitt",
   "public": true,
   "targets": [
