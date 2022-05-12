@@ -32,7 +32,7 @@
     }
   ],
   "execution": {
-    "PowerShell": {
+    "PowerShell3": {
       "target": "$(currentDirectory)\\run-stryker.ps1",
       "argumentFormat": "",
       "workingDirectory": "$(Agent.BuildDirectory)"
